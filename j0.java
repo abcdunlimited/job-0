@@ -10,9 +10,22 @@ rectMode(CENTER);
 rect( 100,100, 30,50 );
 
 
+
 //  Modify the above code as follows:
 //    * change the color of the body.
 //    * add a head 
+fill(0,255,0);
+ellipse( 100,70, 20,20 );
+
+// eyes
+fill(255);
+ellipse( 90,60, 10,10 );
+ellipse( 110,60, 10,10 );
+fill(0,0,255);
+ellipse( 90,60, 5,5 );
+ellipse( 110,60, 5,5 );
+
+
 //    * make it follow the mouse.
 
 //  When you are done, commit your code and send me a "pull-request"
